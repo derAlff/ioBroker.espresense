@@ -1,0 +1,48 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "espresense",
+	"title": "ESPresense",
+	"description": "Control your ESPresense",
+	"keywords": [
+		"ESPresense Automation"
+	],
+	"contributors": [
+		"derAlff"
+	],
+	"expert": "yes",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [
+		"tab",
+		"custom"
+	],
+	"type": "iot-systems",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"language": "TypeScript",
+	"nodeVersion": "14",
+	"adminUi": "json",
+	"tabReact": "no",
+	"tools": [
+		"ESLint"
+	],
+	"releaseScript": "yes",
+	"devServer": "yes",
+	"devServerPort": 8081,
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "derAlff",
+	"authorGithub": "derAlff",
+	"authorEmail": "o.alff@mailbox.org",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "yes",
+	"defaultBranch": "main",
+	"license": "GNU GPLv3",
+	"dependabot": "yes",
+	"creatorVersion": "2.2.0"
+}
